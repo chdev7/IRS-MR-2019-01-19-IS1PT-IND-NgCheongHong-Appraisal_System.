@@ -1,5 +1,9 @@
 ﻿# Performance Appraisal System
 
+**This is an individual project submission to fulfil the requirement of Machine Reasoning course.** 
+
+The project code is zipped under I[RS-MR-2019-01-19-IS1PT-IND-NgCheongHong-Appraisal_System.zip](https://github.com/chdev7/employee-appraisal-system/blob/master/IRS-MR-2019-01-19-IS1PT-IND-NgCheongHong-Appraisal_System.zip "RS-MR-2019-01-19-IS1PT-IND-NgCheongHong-Appraisal_System.zip")
+
 ##  EXECUTIVE SUMMARY
 
 Managing and reviewing employee's performance is no easy task especially in multinational corporations with large workforce. Performance appraisal is often conducted during year end to review the employee's performance. 
@@ -11,6 +15,9 @@ In the project, an appraisal system is designed to collect the appraisal score f
 Another feature of this system is the recommendation for promotion for employee with exceptional performance. With the length of service and performance grade given, the system is able to recommend the employee to be considered for promotion. The final outcome is then evaluated by HR or the manager. 
 
 ### Business Process Design 
+
+<img src="images/AppraisalProcess.jpg" style="margin: auto" />
+
 
 In this system, the appraiser is required to fill the appraisal form with the appraisee's information and the score for respective criterion.  Then, the system will validate the input and reject the form if the input violates the validation rule. A human intervention would be needed to rectify the input in order to allow the form to be further processed. 
 
