@@ -32,9 +32,9 @@ The final step which is the review and approve process will then be completed by
 
 ###### When there are fields with 0 score 
 
-<img src="images/AppraisalForm-Invalid.JPG" style="margin: auto" />
+<img src="images/AppraisalForm-Invalid.jpg" style="margin: auto" />
 
-<img src="images/ResetAppraisal.jpg" style="margin: auto" />
+<img src="images/ResetAppraisal.JPG" style="margin: auto" />
 
 ###### Error will be displayed at output and human intervention is required to rectify the input 
 
