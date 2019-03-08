@@ -4,6 +4,8 @@
 
 The project code is zipped under I[RS-MR-2019-01-19-IS1PT-IND-NgCheongHong-Appraisal_System.zip](https://github.com/chdev7/employee-appraisal-system/blob/master/IRS-MR-2019-01-19-IS1PT-IND-NgCheongHong-Appraisal_System.zip "RS-MR-2019-01-19-IS1PT-IND-NgCheongHong-Appraisal_System.zip")
 
+Download [JBPM ](http://https://download.jboss.org/jbpm/release/7.12.0.Final/jbpm-server-7.12.0.Final-dist.zip "JBPM ") and import the project after unzipping. 
+
 ##  EXECUTIVE SUMMARY
 
 Managing and reviewing employee's performance is no easy task especially in multinational corporations with large workforce. Performance appraisal is often conducted during year end to review the employee's performance. 
@@ -18,12 +20,31 @@ Another feature of this system is the recommendation for promotion for employee 
 
 <img src="images/AppraisalProcess.jpg" style="margin: auto" />
 
-
 In this system, the appraiser is required to fill the appraisal form with the appraisee's information and the score for respective criterion.  Then, the system will validate the input and reject the form if the input violates the validation rule. A human intervention would be needed to rectify the input in order to allow the form to be further processed. 
+
+<img src="images/AppraisalForm.jpg" style="margin: auto" />
 
 Once the validation is successful, the system will tabulate the aggregrate score and output the final grade and bonus when the score matches the condition defined in a guided decision table. If the appraisee's performance together with the length of service meet the promotion requirement, a checkbox will indicate his/her promotion eligibility.  
 
 The final step which is the review and approve process will then be completed by HR or manager. 
+
+### Use Case 
+
+###### When there are fields with 0 score 
+
+<img src="images/AppraisalForm-Invalid.jpg" style="margin: auto" />
+
+<img src="images/ResetAppraisal.jpg" style="margin: auto" />
+
+###### Error will be displayed at output and human intervention is required to rectify the input 
+
+<img src="images/ValidationError.jpg" style="margin: auto" />
+
+###### Once the validation is successful, the total score is calculated and final grade with bonus is determined. 
+
+<img src="images/FinalEval.jpg" style="margin: auto" />
+
+###### In this example, the appraisee's didn't meet the requirement for promotion hence the checkbox for "Eligible for Promotion" is not checked by system. The final step is to approve the appraisal by checking the approval checkbox. 
 
 ---
 
