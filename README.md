@@ -32,17 +32,17 @@ The final step which is the review and approve process will then be completed by
 
 ###### When there are fields with 0 score 
 
-<img src="images/AppraisalForm-Invalid.jpg" style="margin: auto" />
+<img src="images/AppraisalForm-Invalid.JPG" style="margin: auto" />
 
 <img src="images/ResetAppraisal.jpg" style="margin: auto" />
 
 ###### Error will be displayed at output and human intervention is required to rectify the input 
 
-<img src="images/ValidationError.jpg" style="margin: auto" />
+<img src="images/ValidationError.JPG" style="margin: auto" />
 
 ###### Once the validation is successful, the total score is calculated and final grade with bonus is determined. 
 
-<img src="images/FinalEval.jpg" style="margin: auto" />
+<img src="images/FinalEval.JPG" style="margin: auto" />
 
 ###### In this example, the appraisee's didn't meet the requirement for promotion hence the checkbox for "Eligible for Promotion" is not checked by system. The final step is to approve the appraisal by checking the approval checkbox. 
 
